@@ -1,0 +1,42 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center/cover no-repeat;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.download {
+  background: url(../images/download-background.jpg) center center/cover
+    no-repeat;
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: s flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}
